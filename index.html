@@ -50,24 +50,24 @@
                 <h1>Serve coffee for you on every morning</h1>
                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
                     visual form.</p>
-                <button type="submit">See all Products <span> > </span></button>
+                <button type="submit">See all Products <span><i class="fas fa-chevron-right"></i> </span></button>
             </div>
         </div>
         <!-- main finish -->
-        <div class="header__footer container ">
-            <h3>Featured on :</h3>
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-        </div>
+
     </header>
     <!-- header finish -->
-
+    <div class="header__footer container ">
+        <h3>Featured on :</h3>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+    </div>
     <!-- second sector start -->
     <div id="second_sector ">
         <div class="second-main container">
-            <div class="sec_main_left">
+            <div class="sec_main_left container">
                 <span>ABOUT US</span>
                 <h2>We serve the coffee.
                     You chill in the hommy</h2>
@@ -76,10 +76,11 @@
                     we do in the community. We are coffee passionate.</p>
                 <a href="#">Read Full Story <i class="fal fa-long-arrow-right"></i></a>
             </div>
-            <div class="sec_main_right">
-                <div class="grey-box"></div>
-                <div class="greenboll"></div>
-                <div class="lbeagle"><img src="image/Path.png" alt=""></div>
+            <div class="sec_main_right container">
+                <div class="grey-box">
+                    <div class="greenboll"></div>
+                    <div class="lbeagle"><img src="image/Path.png" alt=""></div>
+                </div>
             </div>
         </div>
         <hr class="navbar__under container">
@@ -182,7 +183,7 @@
 
     <!-- fifth sector start -->
     <div id="fifth-sector">
-        <div class="fifth-title">
+        <div class="fifth-title container">
             <p>GALLERY</p>
             <h1>Featured Coffee Gallery</h1>
         </div>
@@ -266,8 +267,8 @@
     <!-- footer sector start -->
     <footer id="footer">
         <div class="footer container">
-        <h1>Don’t wait too long <br>    
-            for a special coffee everydays</h1>
+            <h1>Don’t wait too long <br>
+                for a special coffee everydays</h1>
             <input type="email" placeholder=" yourmail@mail.com">
             <button type="submit" class="email-btn"> Subsribe Us</button>
             <hr>
@@ -297,7 +298,7 @@
             if (panel.style.display === "none") {
                 panel.style.display = "block";
             } else {
-                panel.style.display = "block";
+                panel.style.display = "none";
             }
         });
     }
